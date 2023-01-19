@@ -1,0 +1,46 @@
+/* Estilos del navegador */
+.navegador{
+    width: 100vw;
+    height: 15vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #7260E2;
+}
+.titlePagina{
+    color: white;
+    margin-left: 4vw;
+    font-family: 'PT Sans Caption', sans-serif;
+    font-size: 2vw;
+}
+.contendListaNavegador{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3vw;
+    margin-right: 4vw;
+}
+
+.textNavegador{
+    color: white;
+    list-style: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+    
+}
+.textNavegadorContactanos{
+    width: 15vw;
+    height: 5vh;
+    color: white;
+    background-color: #2F2E41;
+    list-style: none;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.5vw;
+}
+
+/* Estilos del Header del landingpage */
