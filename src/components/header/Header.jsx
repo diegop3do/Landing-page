@@ -1,6 +1,6 @@
 import React from 'react'
 import './header.css'
-import persona from '../../images/imagenes/undraw_reminder_re_fe15.svg'
+import persona from '../../images/undraw_reminder_re_fe15.svg'
 
 export const Header = () => {
   return (

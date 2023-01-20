@@ -1,0 +1,14 @@
+.PrimerCarrusel{
+    width: 100%;
+    padding-top: .3rem;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    justify-content: space-around;
+}
+
+.imagenSlider1{
+    width: 5vw;
+    height: 8vh;
+}

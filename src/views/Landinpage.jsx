@@ -1,5 +1,7 @@
 import React from 'react';
+import { Carrusel } from '../components/Carrusel/Carrusel';
 import { Header } from '../components/header/Header';
+import {imagenesCarrucel} from '../components/Datos'
 import './landingpage.css'
 
 export const Landinpage = () => {
@@ -16,6 +18,9 @@ export const Landinpage = () => {
         </nav>
         <div className='header'>
             <Header />
+        </div>
+        <div className="Body">
+        <Carrusel imagenes={imagenesCarrucel} />
         </div>
     </div>
   )
